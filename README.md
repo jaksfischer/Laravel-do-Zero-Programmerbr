@@ -1,59 +1,162 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <img src="https://yt3.googleusercontent.com/XrP9L62UjDITNSCvsQ1SMD_QjR8L1czI4-L-U03HRNKRlyoyHCu_Ch89X2CSxIQ90ywrDfOdkw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="ProgrammerBR" width="300"/>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<br/>
 
-## About Laravel
+# 🚀 Laravel do Zero ao Teste – Aula com Blade
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Bem-vindo(a)! 👋  
+Este repositório faz parte da aula **Laravel do Zero ao Teste**, criada para **quem nunca trabalhou com Laravel** ou está dando os **primeiros passos no backend**.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+👉 **Assista à aula completa no YouTube:**  
+https://youtu.be/fGxpwPnVLug
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Aqui você vai encontrar o código utilizado na aula, além de instruções **bem explicadas**, pensadas **totalmente para iniciantes**.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📚 Sobre este repositório
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Este projeto demonstra, na prática:
 
-## Laravel Sponsors
+- Como funciona a estrutura de um projeto Laravel
+- O que é o **Blade**
+- Como organizar **views** e **layouts**
+- Como deixar o código mais limpo e reutilizável
+- Boas práticas para quem está começando
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Se você já tentou aprender Laravel e achou complicado, **este repositório é para você**.
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🛠️ Pré-requisitos
 
-## Contributing
+Antes de começar, você precisa ter instalado no seu computador:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **PHP** (versão 8.1 ou superior)
+- **Composer**
+- **Git**
+- Um servidor local (XAMPP, Laragon ou similar)
 
-## Code of Conduct
+👉 Se você não sabe instalar isso ainda, recomendo assistir as aulas iniciais do canal.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📥 Como baixar o projeto
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Opção 1 – Download direto (mais simples)
+1. Clique em **Code**
+2. Clique em **Download ZIP**
+3. Extraia o arquivo no seu computador
 
-## License
+### Opção 2 – Clonando com Git
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Entre na pasta do projeto:
+```bash
+cd nome-do-projeto
+```
+
+---
+
+## ▶️ Como rodar o projeto (passo a passo)
+
+### 1️⃣ Instalar as dependências
+```bash
+composer install
+```
+
+### 2️⃣ Criar o arquivo .env
+```bash
+cp .env.example .env
+```
+
+### 3️⃣ Gerar a chave da aplicação
+```bash
+php artisan key:generate
+```
+
+### 4️⃣ Rodar o servidor
+```bash
+php artisan serve
+```
+
+Depois disso, abra no navegador:
+```
+http://127.0.0.1:8000
+```
+
+🎉 Pronto! O projeto já estará rodando.
+
+---
+
+## 🧩 Estrutura básica do projeto
+
+```text
+app/            -> Regras de negócio
+resources/
+  views/        -> Arquivos Blade (HTML do Laravel)
+routes/
+  web.php       -> Rotas da aplicação
+public/         -> Arquivos públicos (CSS, JS, imagens)
+```
+
+👉 **Nesta aula o foco principal está em:**  
+`resources/views`
+
+---
+
+## 🎨 O que é Blade?
+
+O **Blade** é o sistema de templates do Laravel.  
+Com ele você consegue:
+
+- Reutilizar layouts
+- Separar HTML de lógica
+- Manter o projeto organizado
+
+Exemplo simples:
+```blade
+@extends('layouts.app')
+
+@section('content')
+  <h1>Olá, mundo!</h1>
+@endsection
+```
+
+Tudo isso é explicado **com calma e sem enrolação na aula**.
+
+---
+
+## 📅 Série Laravel do Zero ao Teste
+
+Esta aula faz parte de uma série completa onde:
+- 📌 Sai **uma aula por semana**
+- ⏰ Todos os dias às 10, cortes das aulas no TikTok
+- 🧠 Conteúdo progressivo, do básico ao avançado
+
+Se inscreve no canal para não perder nenhuma 👇
+
+👉 https://youtube.com/@programmerbr
+
+---
+
+## 🙌 Contribuição
+
+Este projeto é educacional, mas sugestões são sempre bem-vindas!
+Sinta-se à vontade para:
+- Abrir issues
+- Enviar pull requests
+- Testar e adaptar o código
+
+---
+
+## ❤️ Agradecimento
+
+Obrigado por acompanhar o conteúdo do **ProgrammerBR**.  
+Espero que este repositório te ajude a **dar os primeiros passos na programação backend** 🚀
+
+Bons estudos!
